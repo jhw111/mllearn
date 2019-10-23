@@ -6,6 +6,7 @@ from keras import metrics
 from sklearn.model_selection._validation import cross_val_predict
 #boston房价数据集
 boston = load_boston()
+
 #print(boston)
 #通过DESCR属性可以查看数据集的详细情况，这里数据有14列，前13列为特征数据，最后一列为标签数据。
 #print(boston.DESCR)
